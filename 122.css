@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-wrapper {
+    display: flex;
+    margin-top: -10rem;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px){
+    
+    .card-wrapper{
+        display: flex;
+        flex-direction:column;
+        margin-top: -5rem;
+        align-items: center;
+    }
+}
